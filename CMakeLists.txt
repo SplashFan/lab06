@@ -17,3 +17,5 @@ add_executable(solver "solver_application/equation.cpp")
 add_executable(hello "hello_world_application/hello_world.cpp")
 target_link_libraries(hello formatter_ex_lib formatter_lib)
 target_link_libraries(solver solver_lib formatter_ex_lib formatter_lib)
+
+include (CPackConfig.cmake)
